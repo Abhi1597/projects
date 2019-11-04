@@ -1,0 +1,63 @@
+body{
+	font-family: 'Lato', sans-serif;
+	background: repeat-y center /100% url("/home/abhi/projects/masai/sprint-1/resources/nasa_background-img.jpg");
+	color: white;
+	padding: 20px;
+}
+.page2{
+	margin-top: 20px;
+}
+.page{
+	color: #FFDB19;
+	font-size: 18px;
+	font-weight: bold;
+}
+#container1{
+	display: grid;
+	grid-template-columns: 100px 700px 100px 100px 100px;
+	grid-gap: 20px;
+}
+.icon{
+	width: 100px;
+	height:100px;
+}
+.sub-heading_2{
+	font-weight: bold;
+	font-size: 16px;
+}
+#container2{
+	display: grid;
+	grid-template-columns: 10% 1000px 10%;
+}
+#content p, .justify{
+	text-align: justify;
+}
+#content > .center{
+	padding: 5px 100px;
+	font: italic 1.2em 'Lato', sans-serif;
+}
+.sub-heading{
+	font-weight: bold;
+	font-size: 18px;
+	text-align: left;
+	margin-top: 10px;
+}
+.right{
+	float: right;
+}
+.left{
+	float: left;
+}
+.pics{
+	width: 250px;
+	height: 200px;
+	margin: 0px 20px;
+
+}
+.flex-box {
+  display: flex;
+  flex-direction: row;
+}
+.flex-box div {
+  margin: 20px 5px;
+}

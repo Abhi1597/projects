@@ -1,0 +1,73 @@
+body{
+	font-family: 'Lato', sans-serif;
+	background: repeat-y center /100% url("/home/abhi/projects/masai/sprint-1/resources/isro_background-img.jpg");
+	color: white;
+	padding: 20px;
+}
+#container1{
+	display: grid;
+	grid-template-columns: 100px 700px 100px 100px 100px;
+	grid-gap: 20px;
+}
+.page2{
+	margin-top: 20px;
+}
+.page{
+	color: #FFDB19;
+	font-size: 18px;
+	font-weight: bold;
+}
+.icon{
+	width: 100px;
+	height:100px;
+}
+.sub-heading_2{
+	font-weight: bold;
+	font-size: 16px;
+}
+#content > .center{
+	padding: 5px 100px;
+	font: italic 1.2em 'Lato', sans-serif;
+}
+#container2{
+	display: grid;
+	grid-template-columns: 10% 1000px 10%;
+}
+#content p, .justify{
+	text-align: justify;
+}
+.sub-heading{
+	font-weight: bold;
+	font-size: 18px;
+	text-align: left;
+	margin-top: 10px;
+}
+.right{
+	float: right;
+}
+.left{
+	float: left;
+}
+.pics{
+	width: 250px;
+	height: 200px;
+	margin: 0px 20px;
+
+}
+#tab{
+	display: grid;
+  	grid-template-columns: auto auto 600px;
+  	background-color: #BFDBDB;
+  	color: black;
+  	padding: 5px;
+  	grid-gap: 5px;
+  	text-align: left;
+}
+.row1{
+	font-size: 28px;
+	font-weight: bold;
+}
+#tab > .col{
+	padding: 20px 0px;
+
+}

@@ -1,0 +1,54 @@
+body{
+	font-family: 'Lato', sans-serif;
+	background: repeat-y center /100%  url("/home/abhi/projects/masai/sprint-1/resources/satellite_background-img.jpg");
+	color: white;
+	padding: 20px;
+}
+#container1{
+	display: grid;
+	grid-template-columns: 100px 700px 100px 100px 100px;
+}
+.page2{
+	margin-top: 20px;
+}
+.page{
+	color: #FFDB19;
+	font-size: 18px;
+	font-weight: bold;
+}
+#icon{
+	width: 100px;
+	height:100px;
+}
+#container2{
+	display: grid;
+	grid-template-columns: 10% 800px 30%;
+}
+/*.heading{
+	text-decoration: solid underline white 2px;
+}*/
+#content p, .justify{
+	text-align: justify;
+}
+.sub-heading{
+	font-weight: bold;
+	font-size: 18px;
+	text-align: left;
+}
+#tab{
+	display: grid;
+  	grid-template-columns: auto auto auto auto auto;
+  	background-color: #BFDBDB;
+  	color: black;
+  	padding: 5px;
+  	grid-gap: 5px;
+  	text-align: left;
+}
+.row1{
+	font-size: 28px;
+	font-weight: bold;
+}
+.pics{
+	width: 250px;
+	height: 200px;
+}
